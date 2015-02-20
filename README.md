@@ -3,6 +3,8 @@ Enables push menu functionality with Bootstrap-compliant classes.  Only takes ef
 
 [Check out the demo here](http://developerdizzle.github.io/bootstrap.push-menu/demo.html)
 
+![demo](http://i.imgur.com/zxkGuqp.gif)
+
 ## Installation
 
 You can use Bower to install bootstrap.push-menu:
