@@ -1,0 +1,33 @@
+{
+  "name": "bootstrap.push-menu",
+  "homepage": "https://github.com/developerdizzle/bootstrap.push-menu",
+  "authors": [
+    "dzl"
+  ],
+  "description": "Enables push menu functionality with bootstrap-compatible classes",
+  "main": "js/push-menu.js",
+  "keywords": [
+    "push",
+    "menu",
+    "responsive",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "521dc468b9",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "521dc468b9567d6113267c3d2856fc1a95ad9daf"
+  },
+  "_source": "git://github.com/developerdizzle/bootstrap.push-menu.git",
+  "_target": "*",
+  "_originalSource": "git://github.com/developerdizzle/bootstrap.push-menu.git",
+  "_direct": true
+}
