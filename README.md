@@ -58,4 +58,4 @@ These options can be placed on the button that toggles the push:
 
 `data-canvas` is the selector for the element that will be pushed.  This defaults to `body` and is almost always what you want.
 
-`data-direction` is the direction that the canvas element and menu will slide.  Defaults to `left`.  **Note:** `right` does not work in standard Bootstrap navbar, as the navbar-toggle button will be on the right.
+`data-direction` is the direction that the canvas element and menu will slide.  Defaults to `left`.  **Note:** `right` does not work in standard Bootstrap navbar, as the navbar-toggle button will be on the right (and pushing it further right will place it off-screen).
