@@ -3,7 +3,7 @@ Enables push menu functionality with Bootstrap-compliant classes.  Only takes ef
 
 [Check out the demo here](http://developerdizzle.github.io/bootstrap.push-menu/demo.html)
 
-![demo](http://i.imgur.com/zxkGuqp.gif)
+![demo](http://i.imgur.com/YO4dO6A.gif)
 
 ## Installation
 
