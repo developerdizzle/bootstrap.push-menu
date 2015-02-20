@@ -46,7 +46,7 @@ Then minimally add the `data-toggle="push"` and `data-target` attributes to your
               ...
 ```
 
-For standard Bootstrap setups, `data-toggle="push"` replaces `data-toggle="collapse"` and `data-target` remains the same.  You will also want to replace the `collapsed` class from the `navbar-toggle` button with `visible-xs`, as well as the `navbar-collapse` and `collapse` classes from the target `#navbar`.
+For standard Bootstrap setups, `data-toggle="push"` replaces `data-toggle="collapse"` and `data-target` remains the same.  You will also want to replace the `collapsed` class from the `navbar-toggle` button with `visible-xs`, as well as the `navbar-collapse` and `collapse` classes from the target `#navbar`, because we are essentially replacing the collapse functionality with push.
 
 The javascript will automatically add a few classes to your navigation elements.
 
