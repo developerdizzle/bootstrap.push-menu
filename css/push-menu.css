@@ -1,3 +1,10 @@
+.navbar-push {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-left: 0;
+    margin-right: 0;
+}
+
 @media screen and (max-width: 767px) {
     .push-canvas {
         -webkit-transition: all .25s ease-out;
@@ -14,7 +21,11 @@
         left: -50%;
     }
     
-    .push {
+    .push-canvas.pushed-right {
+        left: 50%;
+    }
+    
+    .navbar-push {
         -webkit-transition: all .25s ease-out;
         -moz-transition: all .25s ease-out;
         -o-transition: all .25s ease-out;
@@ -26,15 +37,19 @@
         top: 0;
     }
     
-    .push.push-left {
+    .navbar-push.navbar-push-left {
         right: -50%;
     }
     
-    .push.in {
-        right: 0;
+    .navbar-push.navbar-push-right {
+        left: -50%;
     }
     
-    .push .navbar-nav {
-        margin: 0;
+    .navbar-push.navbar-push-right.in {
+        left: 0;
+    }
+    
+    .navbar-push.navbar-push-left.in {
+        right: 0;
     }
 }
