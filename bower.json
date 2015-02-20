@@ -1,0 +1,24 @@
+{
+  "name": "bootstrap.push-menu",
+  "version": "0.1.0",
+  "homepage": "https://github.com/developerdizzle/bootstrap.push-menu",
+  "authors": [
+    "dzl"
+  ],
+  "description": "Enables push menu functionality with bootstrap-compatible classes",
+  "main": "js/push-menu.js",
+  "keywords": [
+    "push",
+    "menu",
+    "responsive",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

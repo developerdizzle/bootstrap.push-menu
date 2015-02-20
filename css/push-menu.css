@@ -1,0 +1,40 @@
+@media screen and (max-width: 767px) {
+    .push-canvas {
+        -webkit-transition: all .25s ease-out;
+        -moz-transition: all .25s ease-out;
+        -o-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+
+        overflow-x: hidden;
+        position: relative;
+        left: 0;
+    }
+    
+    .push-canvas.pushed-left {
+        left: -50%;
+    }
+    
+    .push {
+        -webkit-transition: all .25s ease-out;
+        -moz-transition: all .25s ease-out;
+        -o-transition: all .25s ease-out;
+        transition: all .25s ease-out;
+
+        height: 100%;
+        position: fixed;
+        width: 50%;
+        top: 0;
+    }
+    
+    .push.push-left {
+        right: -50%;
+    }
+    
+    .push.in {
+        right: 0;
+    }
+    
+    .push .navbar-nav {
+        margin: 0;
+    }
+}
