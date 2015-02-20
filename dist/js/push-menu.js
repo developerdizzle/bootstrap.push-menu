@@ -3,12 +3,20 @@
         $('[data-toggle="push"]').each(function() {
             var $this = $(this);
 
-            var $target = $($this.data('target') || $this.attr('href') || '#navbar');
-            var direction = $this.data('direction') || 'left';
+            var data = $this.data();
+            var options = {
+                target: '#navbar',
+                direction: 'left',
+                canvas: 'body'
+            };
             
-            $target.addClass('navbar-push').addClass('navbar-push-' + direction);
+            $.extend(options, data);
+
+            var $target = $(options.target);
+
+            $target.addClass('navbar-push navbar-push-' + options.direction);
             
-            var $canvas = $($this.data('canvas') ||  'body');
+            var $canvas = $(options.canvas);
             $canvas.addClass('push-canvas');
             
             $this.on('click', function(e) {
@@ -16,7 +24,7 @@
                 if ($this.is('.fa-bars')) {
                     $this.toggleClass('fa-rotate-90');
                 }
-                $canvas.toggleClass('pushed-' + direction);
+                $canvas.toggleClass('pushed-' + options.direction);
                 $target.toggleClass('in');
             });
         });
