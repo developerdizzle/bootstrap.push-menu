@@ -25,7 +25,7 @@ and JS file:
 <script src="/bower_components/bootstrap.push-menu/dist/js/push-menu.js" />
 ```
 
-Then minimally add the `data-toggle="push"` and `data-target` attributes to your mobile nav button:
+Then minimally add the `data-toggle="push"` and `data-target` attributes to your `navbar-toggle` button:
 
 ```html
       <nav class="navbar navbar-default">
@@ -46,7 +46,7 @@ Then minimally add the `data-toggle="push"` and `data-target` attributes to your
               ...
 ```
 
-For standard Bootstrap setups, `data-toggle="push"` replaces `data-toggle="collapse"` and `data-target` remains the same.  You will also want to remove the `navbar-collapse` and `collapse` classes from the target `#navbar`.
+For standard Bootstrap setups, `data-toggle="push"` replaces `data-toggle="collapse"` and `data-target` remains the same.  You will also want to replace the `collapsed` class from the `navbar-toggle` button with `visible-xs`, as well as the `navbar-collapse` and `collapse` classes from the target `#navbar`.
 
 The javascript will automatically add a few classes to your navigation elements.
 
