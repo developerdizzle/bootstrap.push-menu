@@ -26,6 +26,12 @@
                 }
                 $canvas.toggleClass('pushed-' + options.direction);
                 $target.toggleClass('in');
+                
+                var pushed = $this.hasClass('active');
+                
+                var event = pushed ? 'pushed.bs.menu' : 'unpushed.bs.menu';
+                
+                $this.trigger(event, options);
             });
         });
     });
