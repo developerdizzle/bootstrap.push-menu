@@ -20,14 +20,17 @@
     "test",
     "tests"
   ],
-  "_release": "521dc468b9",
+  "dependencies": {
+    "jquery": "~2.1.3",
+    "bootstrap": "~3.3.2"
+  },
+  "_release": "6e92df6e7e",
   "_resolution": {
     "type": "branch",
     "branch": "master",
-    "commit": "521dc468b9567d6113267c3d2856fc1a95ad9daf"
+    "commit": "6e92df6e7ef34b92e076d1b1aa43e5bd4badfcd2"
   },
   "_source": "git://github.com/developerdizzle/bootstrap.push-menu.git",
   "_target": "*",
-  "_originalSource": "git://github.com/developerdizzle/bootstrap.push-menu.git",
-  "_direct": true
+  "_originalSource": "git://github.com/developerdizzle/bootstrap.push-menu.git"
 }
