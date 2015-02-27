@@ -1,5 +1,5 @@
 # bootstrap.push-menu
-Enables push menu functionality with Bootstrap-compliant classes.  Only takes effect at mobile resolution.
+Enables push menu functionality with Bootstrap-compliant markup and CSS.  Only takes effect at mobile resolution.
 
 [Check out the demo here](http://developerdizzle.github.io/bootstrap.push-menu/demo.html)
 
