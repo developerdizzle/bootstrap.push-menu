@@ -24,7 +24,7 @@ Add the CSS file:
 and JS file:
 
 ```html
-<script src="/bower_components/bootstrap.push-menu/dist/js/push-menu.js" />
+<script src="/bower_components/bootstrap.push-menu/dist/js/push-menu.js"></script>
 ```
 
 Then minimally add the `data-toggle="push"` and `data-target` attributes to your `navbar-toggle` button:
