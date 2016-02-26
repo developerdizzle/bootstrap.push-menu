@@ -6,7 +6,10 @@
     "dzl"
   ],
   "description": "Enables push menu functionality with bootstrap-compatible classes",
-  "main": "js/push-menu.js",
+  "main": [
+    "js/push-menu.js",
+    "css/push-menu.css"
+  ],
   "keywords": [
     "push",
     "menu",
